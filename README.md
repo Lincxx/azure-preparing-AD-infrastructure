@@ -36,10 +36,21 @@ Log into the VM and disable the Windows Firewall (for testing connectivity)
 ### Create the Client VM (Windows 10) named “Client-1”
 ![step9](https://github.com/user-attachments/assets/f0c02ac3-2a0c-4fca-b903-a22c4c0e1e92)
 
+![step10](https://github.com/user-attachments/assets/8a2bede4-f0aa-4b36-9a0d-852cac6cc5d6)
+
 #### Username: labuser
 #### Password: Cyberlab123!
-Attach it to the same region and Virtual Network as DC-1
-After VM is created, set Client-1’s DNS settings to DC-1’s Private IP address
+
+### **Attach it to the same region and Virtual Network as DC-1**
+![step11](https://github.com/user-attachments/assets/ad4e3682-5d4a-49e0-b74e-829fb29940ae)
+
+
+### After VM is created, set Client-1’s DNS settings to DC-1’s Private IP address
+![step12](https://github.com/user-attachments/assets/4e4b75d1-e611-494c-9ac1-d8c72016bbbe)
+
+![step13](https://github.com/user-attachments/assets/30eac489-6d7b-448f-9967-77ceb09a44a4)
+
+
 From the Azure Portal, restart Client-1
 Login to Client-1
 Attempt to ping DC-1’s private IP address
