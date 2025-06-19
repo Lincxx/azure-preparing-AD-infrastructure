@@ -40,8 +40,11 @@ Log into the VM and disable the Windows Firewall (for testing connectivity)**
 
 ![step11](https://github.com/user-attachments/assets/fcdec8a4-e10d-4667-beea-f917b1f63a5e)
 
+
+
 #### Username: labuser
 #### Password: Cyberlab123!
+
 
 ### Attach it to the same region and Virtual Network as DC-1
 
