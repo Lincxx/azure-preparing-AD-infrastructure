@@ -2,7 +2,7 @@ Azure Preparing AD Infrastructure
 ---
 In this lab we are going to setup our Active Directory, along with a user
 ---
-Setup Domain Controller in Azure
+#### Setup Domain Controller in Azure
 ---
 ### **Create a Resource Group**
 
