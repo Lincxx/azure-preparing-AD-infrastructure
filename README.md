@@ -20,16 +20,24 @@ In this lab we are going to setup our Active Directory, along with a user
 
 ![step5](https://github.com/user-attachments/assets/4ea0afc7-09d9-45f0-911b-cc9195307d6e)
 
+![step6](https://github.com/user-attachments/assets/2560bed2-c68e-4cb6-92b8-d5bb97e3075b)
+
+![step7](https://github.com/user-attachments/assets/d9eadf2c-7adb-4347-b316-a6c37a175434)
+
+![step8](https://github.com/user-attachments/assets/1b293775-f84d-4004-8275-3d37c65400ad)
+
 #### Username: labuser
 #### Password: Cyberlab123!
 After VM is created, set Domain Controller’s NIC Private IP address to be static
 Log into the VM and disable the Windows Firewall (for testing connectivity)
 
-Setup Client-1 in Azure
-—
-Create the Client VM (Windows 10) named “Client-1”
-Username: labuser
-Password: Cyberlab123!
+#### Setup Client-1 in Azure
+---
+### Create the Client VM (Windows 10) named “Client-1”
+![step9](https://github.com/user-attachments/assets/f0c02ac3-2a0c-4fca-b903-a22c4c0e1e92)
+
+#### Username: labuser
+#### Password: Cyberlab123!
 Attach it to the same region and Virtual Network as DC-1
 After VM is created, set Client-1’s DNS settings to DC-1’s Private IP address
 From the Azure Portal, restart Client-1
